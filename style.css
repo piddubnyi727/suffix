@@ -1,0 +1,266 @@
+.heder {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.hederfoto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.right {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.right-info {
+    height: 60%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textabowe {
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+}
+
+.Bold {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box-for-two {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fetured-content-left {
+    width: 50%;
+}
+
+.fetured-content-right {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.box-for-two img {
+    width: 100%;
+}
+
+.right-text-below {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.content-left-text2 {
+    padding-top: 30px;
+}
+
+.content-left-text-tree {
+    padding-top: 30px;
+}
+
+.main-tre-fotos {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.main-three-fots img {
+    width: 97%;
+}
+
+.main-tree-text {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxi {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5px;
+
+}
+
+.boxi-one {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boldi {
+    font-size: 10px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+.boxi-three-botom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.lorem {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    width: 130px;
+    height: 25px;
+    background-color: black;
+    color: white;
+}
+
+.issue25 {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+}
+
+.issue25-boxes {
+    width: 50%;
+}
+
+.issue25-boxes-two {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.issue25-boxes img {
+    width: 100%;
+}
+
+.issue25-boxes-two-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textabowe-two {
+    margin-top: 45px;
+}
+
+.heder-below {
+    margin-top: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.header-below-text {
+    height: 30px;
+    margin-top: 30px;
+}
+
+.header-abowe-text {
+    height: 70%;
+    margin-bottom: 10px;
+}
+@media all and (max-width: 750px) {
+    .hederfoto{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-for-two{
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+    }
+    .right{
+    height: 328px;
+    }
+    .fetured-content-left{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .hiden{
+        display: none;
+    }
+    .fetured-content-right{
+        width: 98%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .content-right-below{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .main-tre-fotos{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .dlafoto{
+        margin-top: 15px;
+    }
+    .issue25{
+        flex-direction: column;
+        width: 97%;
+    }
+    .issue25-boxes{
+        width: 97%;
+        margin: 0 auto;
+    }
+    .issue25-boxes-two{
+        width: 97%;
+        margin: 0 auto;
+        height: 250px;
+    }
+    }
